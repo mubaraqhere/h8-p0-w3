@@ -1,15 +1,15 @@
 function targetTerdekat(arr) {
     // you can only write your code here!
-    var iO = arr.indexOf('o')
-    var iX = arr.indexOf('x')
-    var jarakTerdekat = arr.length
-    var hasil = 0
+    let iO = arr.indexOf('o')
+    let iX = arr.indexOf('x')
+    let jarakTerdekat = arr.length
+    let hasil = 0
     
     if(iX === -1){
     return 0
     }
 
-    for(var i=0; i<arr.length; i++){
+    for (let i=0; i<arr.length; i++){
         if(arr[i] === 'x'){
             hasil = Math.abs(i - iO)
             if(hasil < jarakTerdekat){
