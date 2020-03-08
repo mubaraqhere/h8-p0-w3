@@ -16,7 +16,7 @@ function mengelompokkanAngka(arr) {
         }
     }
     
-    return hasil
+    return hasil 
   }
   
   // TEST CASES
